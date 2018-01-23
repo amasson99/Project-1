@@ -28,11 +28,12 @@ public class Proj1_Part2 {
 			purchaseprice = Double.parseDouble(input);
 			taxtotal = purchaseprice * salestax;
 			totalall = purchaseprice + taxtotal;
+
 		System.out.println(" ");
 		System.out.println("Brand: " + brand);
 		System.out.println("Model: " + modelname);
 		System.out.printf("Sales Tax:  $%.2f\n", taxtotal);
-		System.out.printf("Total Cost: $%.2f\n", totalall);
+		System.out.printf("Total Cost: $%.2f\n",totalall);
 
   	in.close();//close the scanner
 	} // end main
