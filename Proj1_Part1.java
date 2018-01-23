@@ -21,7 +21,9 @@ public class Proj1_Part1 {
 		double financingpayment; //what the financing payment for each month will be
 
 		System.out.print("Enter the item to be purchased: ");
-			input = in.nextLine();
+			item = in.nextLine();
+		System.out.println("The item you just said is: " + item);
+
 
   	in.close();//close the scanner
 	} // end main
