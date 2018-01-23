@@ -11,7 +11,7 @@ public class Proj1_Part1 {
 	{
 		Scanner in = new Scanner (System.in);// Declare a Scanner object here to be used for input
 
-		String input = in.nextLine(); //read the user input as a String
+		String input; //read the user input as a String
 		String item; //item user purchases
 		double financing = .03; //constant finance rate
 		double financingprice;
