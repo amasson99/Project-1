@@ -26,8 +26,8 @@ public class Proj1_Part1 {
 		System.out.print("Enter the amount of the purchase:");
 			input = in.nextLine();
 			purchaseprice = Double.parseDouble(input);
-			financingprice = purchaseprice * financing;
-			monthlypayment = (purchaseprice + financingprice)/months;
+			taxtotal = purchaseprice * salestax;
+			totalall = purchaseprice + taxtotal;
 		System.out.println(" ");
 		System.out.println("Brand: " + brand);
 		System.out.println("Model: " + model);
