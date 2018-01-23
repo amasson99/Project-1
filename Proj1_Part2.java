@@ -6,7 +6,7 @@
 *******************************************************************/
 import java.util.*;// Add import line here to use the Scanner class
 
-public class Proj1_Part1 {
+public class Proj1_Part2 {
 	public static void main(String[] args)
 	{
 		Scanner in = new Scanner (System.in);// Declare a Scanner object here to be used for input
@@ -21,9 +21,9 @@ public class Proj1_Part1 {
 
 		System.out.print("What brand of computer do you wish to purchase? ");
 			brand = in.nextLine();
-		System.out.print("What model?");
-			model = in.nextLine();
-		System.out.print("Enter the amount of the purchase:");
+		System.out.print("What model? ");
+			modelname = in.nextLine();
+		System.out.print("Enter the amount of the purchase: ");
 			input = in.nextLine();
 			purchaseprice = Double.parseDouble(input);
 			taxtotal = purchaseprice * salestax;
