@@ -21,17 +21,18 @@ public class Proj1_Part1 {
 
 		System.out.print("What brand of computer do you wish to purchase? ");
 			brand = in.nextLine();
-
+		System.out.print("What model?");
+			model = in.nextLine();
 		System.out.print("Enter the amount of the purchase:");
 			input = in.nextLine();
 			purchaseprice = Double.parseDouble(input);
 			financingprice = purchaseprice * financing;
 			monthlypayment = (purchaseprice + financingprice)/months;
-
-		System.out.printf("Your monthly payment is $%.2f\n", monthlypayment);
-		System.out.printf("Your total payment is $%.2f\n", purchaseprice + financingprice);
-		System.out.printf("Amount paid in financing is $%.2f\n", financingprice);
-
+		System.out.println(" ");
+		System.out.println("Brand: " + brand);
+		System.out.println("Model: " + model);
+		System.out.printf("Sales Tax:  $%.2f\n", taxtotal);
+		System.out.printf("Total Cost: $%.2f\n", totalall);
 
   	in.close();//close the scanner
 	} // end main
